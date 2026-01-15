@@ -117,12 +117,61 @@ html{
 
 }
 #Fourth-section{
-      height: 500px;
+    height: 400px;
     background-color:white;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.fourth-div{
+    width: 1000px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 10px;
+
+}
+.blue-rec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+   
+
+}
+.blue-rec button{
+    padding: 15px 80px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px ;
+    font-size: large;
+    border: 2px solid white;
+
+}
+.blue-rec h2{
+    font-size: xx-large;
+    color: white;
+    margin-bottom: 0px;
+    
+}
+.blue-rec h3{
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+
+}
+.rec-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 #Footer{
-    height: 200px;
+    height: 100px;
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
