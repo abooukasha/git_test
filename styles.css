@@ -82,10 +82,39 @@ html{
     text-align: center;
 }
 #Third-section{
-      height: 500px;
+    height: 400px;
     background-color:#E5E7EB;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+#Third-section h3{
+    font-size: xx-large;
+    font-style: italic;
+}
+.third-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.quote-container{
+    margin: 20px 0;
+}
+.quote-container blockquote {
+    font-style: italic;
+    
+    padding-left: 15px;
+    
+    
+}
+.quote-container figcaption{
+    font-weight: bold;
+    text-align: right;
+    margin-top: 1px;
+    
+
 }
 #Fourth-section{
       height: 500px;
