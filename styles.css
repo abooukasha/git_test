@@ -19,8 +19,9 @@ html{
     margin-bottom: 80px;
 }
 .nav-right{
-    display: flex ;
-    gap: 5px;
+    display: flex;
+    gap: 20px;
+    
 }
 .Hero-section{
     display: flex;
@@ -44,9 +45,41 @@ html{
     
 }
 #Second-section{
-     height: 500px;
+    height: 400px;
     background-color:white;
     color: #1F2937;
+    padding: 20px;
+    
+    
+}
+#Second-section h1{
+    text-align: center;
+    font-weight: 900;
+    
+}
+.div-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+.secondsection-flex{
+    display: flex;
+    flex-direction: column;
+}
+.secondsection-div{
+    width: 150px;
+    height: 150px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    margin-top: 50px;
+    
+
+    
+}
+.text{
+    text-align: center;
 }
 #Third-section{
       height: 500px;
